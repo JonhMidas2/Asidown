@@ -73,9 +73,9 @@ def execution(modulos, materiais_link, path, session):
 if __name__ == "__main__":
     # Conexão para o Asimov
     User_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
-    url = 'https://hub.asimov.academy/login/'
-    email = 'adryelcesarm@gmail.com'
-    pwd = '157753@Aa'
+    url = 'https://hub.asimov.academy/login'
+    email = ''
+    pwd = ''
     payload = {'login': email, 'password': pwd}
 
     # Salvar sessão de conexão
